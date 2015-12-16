@@ -10,12 +10,12 @@ var accordion = require('fec-style/js/accordion');
 var feedback = require('fec-style/js/feedback');
 var skipNav = require('fec-style/js/skip-nav');
 var siteNav = require('fec-style/js/site-nav');
+var toc = require('fec-style/js/toc.js');
 
 // Hack: Append jQuery to `window` for use by legacy libraries
 window.$ = window.jQuery = $;
 
 var Sticky = require('component-sticky');
-var toc = require('./toc.js');
 
 var SLT_ACCORDION = '.js-accordion';
 
